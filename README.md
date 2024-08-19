@@ -3,7 +3,7 @@
 ## Objetivo:
 Desenvolver um modelo de aprendizado de máquina (AM) para apoiar no processo de tomada de decisão, utilizando um dataset disponível no Kaggle. A tarefa inclui comparar os resultados obtidos com um estudo existente (Estudo X) que aplicou técnicas de AM ao mesmo dataset.
 
-## Etapas do Trabalho:
+## Etapas:
 
 ### 1. Seleção do Dataset:
 
