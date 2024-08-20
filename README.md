@@ -1,5 +1,3 @@
-Aqui está a descrição do repositório com emojis e links inteligentes:
-
 # 🚢 Titanic Survival Prediction
 
 ## 🎯 Objetivo
