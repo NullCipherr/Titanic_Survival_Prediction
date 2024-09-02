@@ -1,51 +1,34 @@
 # 🚢 Titanic Survival Prediction
 
-## 🎯 Objetivo
-Desenvolver um modelo de aprendizado de máquina (AM) para apoiar na tomada de decisão, utilizando um [dataset disponível no Kaggle](https://www.kaggle.com/c/titanic). O projeto inclui a comparação dos resultados obtidos com um estudo existente, chamado **Estudo X**, que aplicou técnicas de AM ao mesmo dataset.
+Este repositório contém uma análise abrangente dos dados do Titanic, incluindo pré-processamento, visualização de dados e construção de modelos de machine learning para prever a sobrevivência dos passageiros. A solução envolve a implementação de técnicas avançadas como engenharia de features, tratamento de valores ausentes, codificação de variáveis categóricas, balanceamento de classes, e ajuste de hiperparâmetros. O objetivo é criar um pipeline robusto e eficiente para análise e previsão.
 
-## 🚀 Etapas
+## Principais Funcionalidades ✨
 
-### 1. 🗂️ Seleção do Dataset
-Escolha um dataset relevante e com dados ricos para aplicar técnicas de AM. O [Kaggle](https://www.kaggle.com/datasets) é uma excelente fonte para encontrar datasets em diversas áreas como saúde, finanças e marketing.
+- **Análise Descritiva e Visualização** 📊: Geração de estatísticas resumidas e visualizações detalhadas dos dados.
+- **Pré-processamento dos Dados** 🔧: Implementação de técnicas para preparar os dados para modelagem, incluindo imputação de valores ausentes, engenharia de features e codificação categórica.
+- **Modelagem Preditiva** 🤖: Treinamento e avaliação de modelos de machine learning, como Decision Tree e Random Forest.
+- **Busca e Exploração de Dados** 🔍: Funcionalidades para pesquisar passageiros específicos e explorar características associadas à sobrevivência.
+- **Ajuste de Hiperparâmetros** 🎯: Busca aleatória para otimizar os hiperparâmetros dos modelos, garantindo melhor desempenho preditivo.
 
-### 2. 📊 Análise Estatística Descritiva
-Realize uma [análise exploratória dos dados (EDA)](https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15) para entender as características do dataset. 
-Tarefas:
-- Calcular medidas descritivas (média, mediana, desvio padrão, etc.).
-- Visualizar distribuições com histogramas, boxplots, etc.
-- Identificar outliers.
-- Analisar correlações (matriz de correlação, heatmaps).
+## Tecnologias Utilizadas 🛠️
 
-### 3. 🛠️ Pré-processamento de Dados
-Prepare os dados antes de aplicar técnicas de AM.
-Tarefas:
-- Tratar valores ausentes (imputação ou remoção).
-- Normalizar/padronizar os dados, se necessário.
-- Codificar variáveis categóricas (one-hot, label encoding).
-- Dividir o dataset em conjuntos de treino e teste.
+- **Python**: Linguagem principal para a análise e modelagem.
+- **Pandas & NumPy**: Manipulação e análise dos dados.
+- **Seaborn & Matplotlib**: Visualizações gráficas.
+- **Scikit-learn**: Modelagem e validação de modelos de machine learning.
+- **SMOTE**: Técnicas para balanceamento de classes.
 
-### 4. 🔄 Treinamento e Teste com Cross-Validation
-Aplique [cross-validation com k-folds](https://scikit-learn.org/stable/modules/cross_validation.html) para garantir que o modelo seja robusto e sem vieses.
-Tarefas:
-- Escolher o número de folds (geralmente 5 ou 10).
-- Treinar o modelo com cada técnica de AM.
+## Estrutura do Repositório 📁
 
-### 5. 🧠 Implementação de Técnicas de AM
-Implemente duas técnicas de AM diferentes das usadas no Estudo X.
-Tarefas:
-- Utilize bibliotecas como [Scikit-learn](https://scikit-learn.org/stable/), [R](https://www.r-project.org/), ou [KNIME](https://www.knime.com/).
-- Testar e validar os modelos.
+- **DataPreparation**: Módulo responsável pela análise e preparação dos dados.
+- **ModelTraining**: Módulo para treinamento de modelos de machine learning.
+- **HyperparameterTuning**: Módulo para ajuste de hiperparâmetros.
+- **PassengerSearch**: Módulo para busca e exploração de dados de passageiros.
 
-### 6. ⚙️ Parametrização com Grid Search
-Use [grid search](https://scikit-learn.org/stable/modules/grid_search.html) para otimizar os hiperparâmetros e encontrar a melhor versão dos modelos.
-Tarefas:
-- Definir o espaço de busca para cada hiperparâmetro.
-- Executar o grid search para otimizar a performance.
+## Como Contribuir 🖥️
 
-### 7. 📈 Avaliação dos Modelos
-Compare os resultados das duas técnicas de AM com os do Estudo X.
-Tarefas:
-- Calcular métricas de desempenho (acurácia, precisão, recall, F1-score, AUC-ROC).
-- Criar gráficos comparativos entre os modelos desenvolvidos e o Estudo X.
+Sinta-se à vontade para abrir um *pull request* ou relatar problemas na aba de *issues*. Todas as contribuições são bem-vindas!
+
+---
 
 🔗 **Referências úteis**: [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic), [Scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html).
