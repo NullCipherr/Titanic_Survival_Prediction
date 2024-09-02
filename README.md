@@ -2,7 +2,7 @@
 
 Este repositório contém uma análise abrangente dos dados do Titanic, incluindo pré-processamento, visualização de dados e construção de modelos de machine learning para prever a sobrevivência dos passageiros. A solução envolve a implementação de técnicas avançadas como engenharia de features, tratamento de valores ausentes, codificação de variáveis categóricas, balanceamento de classes, e ajuste de hiperparâmetros. O objetivo é criar um pipeline robusto e eficiente para análise e previsão.
 
-## Principais Funcionalidades ✨
+## ✨ Principais Funcionalidades 
 
 - **Análise Descritiva e Visualização** 📊: Geração de estatísticas resumidas e visualizações detalhadas dos dados.
 - **Pré-processamento dos Dados** 🔧: Implementação de técnicas para preparar os dados para modelagem, incluindo imputação de valores ausentes, engenharia de features e codificação categórica.
@@ -10,7 +10,7 @@ Este repositório contém uma análise abrangente dos dados do Titanic, incluind
 - **Busca e Exploração de Dados** 🔍: Funcionalidades para pesquisar passageiros específicos e explorar características associadas à sobrevivência.
 - **Ajuste de Hiperparâmetros** 🎯: Busca aleatória para otimizar os hiperparâmetros dos modelos, garantindo melhor desempenho preditivo.
 
-## Tecnologias Utilizadas 🛠️
+## 🛠️ Tecnologias Utilizadas 
 
 - **Python**: Linguagem principal para a análise e modelagem.
 - **Pandas & NumPy**: Manipulação e análise dos dados.
@@ -18,14 +18,14 @@ Este repositório contém uma análise abrangente dos dados do Titanic, incluind
 - **Scikit-learn**: Modelagem e validação de modelos de machine learning.
 - **SMOTE**: Técnicas para balanceamento de classes.
 
-## Estrutura do Repositório 📁
+## 📁 Estrutura do Repositório 
 
 - **DataPreparation**: Módulo responsável pela análise e preparação dos dados.
 - **ModelTraining**: Módulo para treinamento de modelos de machine learning.
 - **HyperparameterTuning**: Módulo para ajuste de hiperparâmetros.
 - **PassengerSearch**: Módulo para busca e exploração de dados de passageiros.
 
-## Como Contribuir 🖥️
+## 🖥️ Como Contribuir 
 
 Sinta-se à vontade para abrir um *pull request* ou relatar problemas na aba de *issues*. Todas as contribuições são bem-vindas!
 
